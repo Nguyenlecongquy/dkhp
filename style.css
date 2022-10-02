@@ -1,0 +1,16 @@
+div {
+    font-size: 5px;
+}
+.container {
+    display: grid;
+    width: 1200px;
+    grid-template-columns: auto auto 360px;
+}
+.header {
+    grid-column: 1 / span 3;
+    height: 6em;
+    background: linear-gradient(to right, rgb(84, 210, 239), rgb(94, 156, 241));
+    font-size: 10px;
+    color: white;
+    text-align: center;
+}
