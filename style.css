@@ -1,10 +1,8 @@
-body {
-    margin: 0 auto 0;
-}
+
 .container {
     display: grid;
     width: 1200px;
-    grid-template-columns: auto auto 360px;
+    grid-template-columns: 420px 420px 360px;
     margin: 0 auto 0;
 }
 .header {
@@ -15,12 +13,13 @@ body {
     color: white;
     text-align: center;
     border-radius: 0.5em;
+    box-shadow: 2px 2px 10px gray ;
 }
 .nav {
     display: flex;
     position: absolute;
     direction: row;
-    top: 5em;
+    top: 6em;
     left: 0em;
     right: 0em;
     margin-left: auto;
@@ -31,12 +30,134 @@ body {
     background-color: rgb(125, 223, 246);
     border-radius: 0.25em;
     justify-content: space-between;
+    box-shadow: 1px 1px 10px gray ;
 }
 .nav > div {
     color: rgb(24, 105, 216);
     font-size: 15px;
     margin: 5px;
 }
-font {
-    font-size: 35px;
+.item {
+    grid-column: 1 / span 3;
+    height: 3em;
+    color: rgb(24, 105, 216);
+    border-bottom: 1px solid rgb(24, 105, 216);
+}
+.main{
+    grid-column: 1 / span 2;
+    display: grid;
+    grid-template-columns: 420px 420px;
+    border-right: 1px dotted rgb(24, 105, 216);
+}
+.dkhp {
+    grid-column: 1 / span 2;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    margin: 10px;
+}
+.inforLabel {
+    grid-column: 1 / span 1;
+}
+.infor {
+    grid-column: 2 / span 1;
+}
+#maso {
+    display: block;
+    width: 200px;
+    height: 25px;
+    margin: 2px;
+    box-sizing: border-box;
+}
+#hoten {
+    display: block;
+    width: 200px;
+    height: 25px;
+    margin: 2px;
+    box-sizing: border-box;
+}
+#diachi {
+    display: block;
+    width: 200px;
+    height: 25px;
+    margin: 2px;
+    box-sizing: border-box;
+}
+#dienthoai {
+    display: block;
+    width: 200px;
+    height: 25px;
+    margin: 2px;
+    box-sizing: border-box;
+}
+#gioitinh {
+    display: block;
+    width: 200px;
+    height: 25px;
+    margin: 2px;
+    box-sizing: border-box;
+}
+#male { 
+    height: 10px;
+}
+#female {
+    height: 10px;
+}
+#ngaysinh {
+    display: block;
+    width: 200px;
+    height: 25px;
+    margin: 2px;
+    box-sizing: border-box;
+}
+#email {
+    display: block;
+    width: 200px;
+    height: 25px;
+    margin: 2px;
+    box-sizing: border-box;
+}
+
+#masoLabel {
+    margin: 2px;
+    font-size: 20px;
+    height: 25px;
+    box-sizing: border-box;
+}
+
+#hotenLabel {
+    margin: 2px;
+    font-size: 20px;
+    height: 25px;
+    box-sizing: border-box;
+}
+#dienthoaiLabel {
+    margin: 2px;
+    font-size: 20px;
+    height: 25px;
+    box-sizing: border-box;
+}
+#diachiLabel {
+    margin: 2px;
+    font-size: 20px;
+    height: 25px;
+    box-sizing: border-box;
+}
+#ngaysinhLabel {
+    margin: 2px;
+    font-size: 20px;
+    height: 25px;
+    box-sizing: border-box;
+}
+#maleLabel {
+    margin: 2px;
+    font-size: 20px;
+    height: 25px;
+    box-sizing: border-box;
+}
+#emailLabel {
+    margin: 2px;
+    font-size: 20px;
+    height: 25px;
+    box-sizing: border-box;
 }
